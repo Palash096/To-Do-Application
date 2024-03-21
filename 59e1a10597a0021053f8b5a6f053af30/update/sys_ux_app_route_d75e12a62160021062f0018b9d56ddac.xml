@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="To Do Workspace Config">175e12a61760021024be446e92443fb3</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>List</name>
+        <optional_parameters>listId,configId,tinyId</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>list</route_type>
+        <screen_type display_value="List">135e12a68460021032cb74a1494e30ae</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 06:55:48</sys_created_on>
+        <sys_id>d75e12a62160021062f0018b9d56ddac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>List</sys_name>
+        <sys_package display_value="TO-DO Application" source="x_1129749_to_do_0">59e1a10597a0021053f8b5a6f053af30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TO-DO Application">59e1a10597a0021053f8b5a6f053af30</sys_scope>
+        <sys_update_name>sys_ux_app_route_d75e12a62160021062f0018b9d56ddac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 06:55:48</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=d75e12a62160021062f0018b9d56ddac"/>
+</record_update>

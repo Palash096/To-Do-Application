@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom">
+    <sc_catalog_view_mtom action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <sc_catalog display_value="Salesforce Catalog">d51e83709738421053f8b5a6f053afd4</sc_catalog>
+        <sys_class_name>sc_catalog_view_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-05 10:10:51</sys_created_on>
+        <sys_id>852ec3709738421053f8b5a6f053afdc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Salesforce Calalog.catalog_salesforce_calalog</sys_name>
+        <sys_package display_value="TO-DO Application" source="x_1129749_to_do_0">59e1a10597a0021053f8b5a6f053af30</sys_package>
+        <sys_policy/>
+        <sys_portal_page display_value="catalog_salesforce_calalog">8d2ec3709738421053f8b5a6f053afda</sys_portal_page>
+        <sys_scope display_value="TO-DO Application">59e1a10597a0021053f8b5a6f053af30</sys_scope>
+        <sys_update_name>sc_catalog_view_mtom_852ec3709738421053f8b5a6f053afdc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-05 10:10:51</sys_updated_on>
+    </sc_catalog_view_mtom>
+</record_update>

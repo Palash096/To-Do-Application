@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1129749_to_do_0.ToDoUserName</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>ToDoUserName</name>
+        <script><![CDATA[var ToDoUserName = Class.create();
+ToDoUserName.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	userName : function(){
+		var user_id = this.getParameter('sysparm_assignTo');
+		var user = new GlideRecord('sys_user');
+		user.get('sys_id',user_id);
+		return user.first_name;
+	},
+	
+    type: 'ToDoUserName'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-14 13:30:54</sys_created_on>
+        <sys_id>1970daf797704e1053f8b5a6f053af47</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>ToDoUserName</sys_name>
+        <sys_package display_value="TO-DO Application" source="x_1129749_to_do_0">59e1a10597a0021053f8b5a6f053af30</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="TO-DO Application">59e1a10597a0021053f8b5a6f053af30</sys_scope>
+        <sys_update_name>sys_script_include_1970daf797704e1053f8b5a6f053af47</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-14 13:45:46</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_context_config">
+    <sys_search_context_config action="INSERT_OR_UPDATE">
+        <evam_definition/>
+        <genius_results_limit/>
+        <hit_highlighting>false</hit_highlighting>
+        <name>To Do Workspace - Workspace Search</name>
+        <search_engine>zing</search_engine>
+        <search_profile/>
+        <search_results_limit>10</search_results_limit>
+        <spell_check>false</spell_check>
+        <suggestions_to_show_limit>10</suggestions_to_show_limit>
+        <sys_class_name>sys_search_context_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 06:55:48</sys_created_on>
+        <sys_id>175e12a69060021078d325e12c8d4fb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>To Do Workspace - Workspace Search</sys_name>
+        <sys_package display_value="TO-DO Application" source="x_1129749_to_do_0">59e1a10597a0021053f8b5a6f053af30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TO-DO Application">59e1a10597a0021053f8b5a6f053af30</sys_scope>
+        <sys_update_name>sys_search_context_config_175e12a69060021078d325e12c8d4fb2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 06:55:48</sys_updated_on>
+        <ts_index_group/>
+        <view/>
+    </sys_search_context_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=175e12a69060021078d325e12c8d4fb2"/>
+</record_update>

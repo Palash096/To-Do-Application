@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
+    <oauth_entity action="DELETE">
+        <access>public</access>
+        <access_token_lifespan>1800</access_token_lifespan>
+        <active>true</active>
+        <auth_code_lifespan>0</auth_code_lifespan>
+        <auth_url>https://d5h0000091msqeay-dev-ed.develop.lightning.force.com/services/oauth2/authorize</auth_url>
+        <certificate_url/>
+        <client_id>3MVG95mg0lk4batg9o14afkBIuNraVWvq0PM355QRzrdx.Qyac.nF8PR4cmrO5vmc3OorTwapAo2APBWVRYKB</client_id>
+        <client_secret>﷞﷟﷒8d91de4d9725311053f8b5a6f053af9c﷬﷔1﷬﷭hkreejBcxuw0TlIUEPVCdg==sU2tgXbQq0MR73w45KcP1Hhw4O0UsGPN_IVmZ-70i3f2jSR-AtFylrdvjxRKv9eiAD3Q82O1Fo0-qI2RH-VJJBMlJgmdbwVCM2aoEy_BEB0=﷮﷯</client_secret>
+        <client_uuid>4c8d616b97a0021053f8b5a6f053afef</client_uuid>
+        <code_challenge_method>S256</code_challenge_method>
+        <comments/>
+        <default_grant_type>authorization_code</default_grant_type>
+        <id_token_lifespan>0</id_token_lifespan>
+        <logo_url/>
+        <message_signature_lifespan>0</message_signature_lifespan>
+        <name>SF Integration 3</name>
+        <oauth_api_script/>
+        <protocol_name/>
+        <public_client>false</public_client>
+        <redirect_url>https://dev164351.service-now.com/oauth_redirect.do</redirect_url>
+        <refresh_token_lifespan>8640000</refresh_token_lifespan>
+        <refresh_token_url/>
+        <restricted_binding>false</restricted_binding>
+        <revoke_token_url>https://d5h0000091msqeay-dev-ed.develop.lightning.force.com/services/oauth2/revoke</revoke_token_url>
+        <salt>0</salt>
+        <send_client_credentials_as>request_body_parameter</send_client_credentials_as>
+        <skip_authorize>false</skip_authorize>
+        <sys_class_name>oauth_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-01 06:08:13</sys_created_on>
+        <sys_id>cc8d616b97a0021053f8b5a6f053afef</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>SF Integration 3</sys_name>
+        <sys_package display_value="TO-DO Application" source="x_1129749_to_do_0">59e1a10597a0021053f8b5a6f053af30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TO-DO Application">59e1a10597a0021053f8b5a6f053af30</sys_scope>
+        <sys_update_name>oauth_entity_cc8d616b97a0021053f8b5a6f053afef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-01 13:06:35</sys_updated_on>
+        <token_url>https://d5h0000091msqeay-dev-ed.develop.lightning.force.com/services/oauth2/token</token_url>
+        <type>oauth_provider</type>
+        <use_mutual_auth>false</use_mutual_auth>
+        <user/>
+    </oauth_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TO-DO Application">59e1a10597a0021053f8b5a6f053af30</application>
+        <file_path/>
+        <instance_id>ad7ecc92dbe92518c9912f17d4961906</instance_id>
+        <instance_name>dev164351</instance_name>
+        <name>oauth_entity_cc8d616b97a0021053f8b5a6f053afef</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity"><oauth_entity action="INSERT_OR_UPDATE"><access>public</access><access_token_lifespan>1800</access_token_lifespan><active>true</active><auth_code_lifespan>0</auth_code_lifespan><auth_url>https://d5h0000091msqeay-dev-ed.develop.lightning.force.com/services/oauth2/authorize</auth_url><certificate_url/><client_id>3MVG95mg0lk4batg9o14afkBIuNraVWvq0PM355QRzrdx.Qyac.nF8PR4cmrO5vmc3OorTwapAo2APBWVRYKB</client_id><client_secret>﷞﷟﷒8d91de4d9725311053f8b5a6f053af9c﷬﷔1﷬﷭hkreejBcxuw0TlIUEPVCdg==sU2tgXbQq0MR73w45KcP1Hhw4O0UsGPN_IVmZ-70i3f2jSR-AtFylrdvjxRKv9eiAD3Q82O1Fo0-qI2RH-VJJBMlJgmdbwVCM2aoEy_BEB0=﷮﷯</client_secret><client_uuid>4c8d616b97a0021053f8b5a6f053afef</client_uuid><code_challenge_method>S256</code_challenge_method><comments/><default_grant_type>authorization_code</default_grant_type><id_token_lifespan>0</id_token_lifespan><logo_url/><message_signature_lifespan>0</message_signature_lifespan><name>SF Integration 3</name><oauth_api_script/><protocol_name/><public_client>false</public_client><redirect_url>https://dev164351.service-now.com/oauth_redirect.do</redirect_url><refresh_token_lifespan>8640000</refresh_token_lifespan><refresh_token_url/><restricted_binding>false</restricted_binding><revoke_token_url>https://d5h0000091msqeay-dev-ed.develop.lightning.force.com/services/oauth2/revoke</revoke_token_url><salt>0</salt><send_client_credentials_as>request_body_parameter</send_client_credentials_as><skip_authorize>false</skip_authorize><sys_class_name>oauth_entity</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-01 06:08:13</sys_created_on><sys_id>cc8d616b97a0021053f8b5a6f053afef</sys_id><sys_mod_count>5</sys_mod_count><sys_name>SF Integration 3</sys_name><sys_package display_value="TO-DO Application" source="x_1129749_to_do_0">59e1a10597a0021053f8b5a6f053af30</sys_package><sys_policy/><sys_scope display_value="TO-DO Application">59e1a10597a0021053f8b5a6f053af30</sys_scope><sys_update_name>oauth_entity_cc8d616b97a0021053f8b5a6f053afef</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-01 13:06:35</sys_updated_on><token_url>https://d5h0000091msqeay-dev-ed.develop.lightning.force.com/services/oauth2/token</token_url><type>oauth_provider</type><use_mutual_auth>false</use_mutual_auth><user/></oauth_entity></record_update>]]></payload>
+        <payload_hash>-1933659547</payload_hash>
+        <record_name>SF Integration 3</record_name>
+        <reverted_from/>
+        <source>19e1a10597a0021053f8b5a6f053af32</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-01 13:06:35</sys_created_on>
+        <sys_id>4c001f6b9728021053f8b5a6f053af5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dfa1fa9b70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-01 13:06:35</sys_updated_on>
+        <type>Application Registries</type>
+        <update_guid>84001f6b232802109d09bda1cdf3b55e</update_guid>
+        <update_guid_history>84001f6b232802109d09bda1cdf3b55e:-1933659547,587e032bf92802101400f4b676796b82:-592341868,c1ea4b677f2802105a3903068b38cb9a:-1561504551,86488b636b28021048260f5a461132ae:-773273287,0ce54e235d240210c8e9ef82787e9820:-1624427055,3f307debeba00210f5ec455b194f63cf:-773273287</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="SF Integration 3">3694d3ef9728021053f8b5a6f053afcc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-01 13:26:42</sys_created_on>
+        <sys_db_object display_value="" name="oauth_entity">oauth_entity</sys_db_object>
+        <sys_id>0535fed1345a438782c7e538983c6041</sys_id>
+        <sys_metadata>cc8d616b97a0021053f8b5a6f053afef</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SF Integration 3</sys_name>
+        <sys_package display_value="TO-DO Application" source="x_1129749_to_do_0">59e1a10597a0021053f8b5a6f053af30</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="TO-DO Application">59e1a10597a0021053f8b5a6f053af30</sys_scope>
+        <sys_scope_delete display_value="">c36c2f0b6cd84e2e99254438d4e7f4f9</sys_scope_delete>
+        <sys_update_name>oauth_entity_cc8d616b97a0021053f8b5a6f053afef</sys_update_name>
+        <sys_update_version display_value="oauth_entity_cc8d616b97a0021053f8b5a6f053afef">4c001f6b9728021053f8b5a6f053af5e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-01 13:26:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

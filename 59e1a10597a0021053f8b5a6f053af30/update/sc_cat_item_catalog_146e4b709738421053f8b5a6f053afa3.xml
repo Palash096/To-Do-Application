@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Update Product">a34e0b709738421053f8b5a6f053af9f</sc_cat_item>
+        <sc_catalog display_value="Salesforce Catalog">d51e83709738421053f8b5a6f053afd4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-05 10:11:53</sys_created_on>
+        <sys_id>146e4b709738421053f8b5a6f053afa3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Salesforce Calalog.Update Product</sys_name>
+        <sys_package display_value="TO-DO Application" source="x_1129749_to_do_0">59e1a10597a0021053f8b5a6f053af30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TO-DO Application">59e1a10597a0021053f8b5a6f053af30</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_146e4b709738421053f8b5a6f053afa3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-05 10:11:53</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

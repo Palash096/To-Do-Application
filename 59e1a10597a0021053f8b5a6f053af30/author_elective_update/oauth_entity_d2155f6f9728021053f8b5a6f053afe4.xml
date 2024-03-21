@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
+    <oauth_entity action="DELETE">
+        <access>public</access>
+        <access_token_lifespan>1800</access_token_lifespan>
+        <active>true</active>
+        <auth_code_lifespan>0</auth_code_lifespan>
+        <auth_url>https://d5h0000091msqeay-dev-ed.develop.lightning.force.com/services/oauth2/authorize</auth_url>
+        <certificate_url/>
+        <client_id>[11:26 AM] Kiran Mhase 3MVG95mg0lk4batg9o14afkBIuNraVWvq0PM355QRzrdx.Qyac.nF8PR4cmrO5vmc3OorTwapAo2A</client_id>
+        <client_secret>﷞﷟﷒8d91de4d9725311053f8b5a6f053af9c﷬﷔1﷬﷭-QVKnsOxOiEPf3h2BSkM7A==02sqzcPWNNiPB1R-rzG0c9u02IliXmujnKBktF0Y2l8UOYAKfXrEPqf9ZS1H-Y2LzgsnIZwZNdFcP8Gy5_-uNc3MeXTHdIBxFgtaOG1JqnhMbvjE5bBP-jjNtiq1O3en2hAynaF00w==﷮﷯</client_secret>
+        <client_uuid>52155f6f9728021053f8b5a6f053afe4</client_uuid>
+        <code_challenge_method>S256</code_challenge_method>
+        <comments/>
+        <default_grant_type>authorization_code</default_grant_type>
+        <id_token_lifespan>0</id_token_lifespan>
+        <logo_url/>
+        <message_signature_lifespan>0</message_signature_lifespan>
+        <name>Salesforce Integration</name>
+        <oauth_api_script/>
+        <protocol_name/>
+        <public_client>false</public_client>
+        <redirect_url>https://dev164351.service-now.com/oauth_redirect.do</redirect_url>
+        <refresh_token_lifespan>8640000</refresh_token_lifespan>
+        <refresh_token_url/>
+        <restricted_binding>false</restricted_binding>
+        <revoke_token_url>https://d5h0000091msqeay-dev-ed.develop.lightning.force.com/services/oauth2/revoke</revoke_token_url>
+        <salt>0</salt>
+        <send_client_credentials_as>request_body_parameter</send_client_credentials_as>
+        <skip_authorize>false</skip_authorize>
+        <sys_class_name>oauth_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-01 13:30:49</sys_created_on>
+        <sys_id>d2155f6f9728021053f8b5a6f053afe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Salesforce Integration</sys_name>
+        <sys_package display_value="TO-DO Application" source="x_1129749_to_do_0">59e1a10597a0021053f8b5a6f053af30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TO-DO Application">59e1a10597a0021053f8b5a6f053af30</sys_scope>
+        <sys_update_name>oauth_entity_d2155f6f9728021053f8b5a6f053afe4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-01 13:30:49</sys_updated_on>
+        <token_url>https://d5h0000091msqeay-dev-ed.develop.lightning.force.com/services/oauth2/token</token_url>
+        <type>oauth_provider</type>
+        <use_mutual_auth>false</use_mutual_auth>
+        <user/>
+    </oauth_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TO-DO Application">59e1a10597a0021053f8b5a6f053af30</application>
+        <file_path/>
+        <instance_id>ad7ecc92dbe92518c9912f17d4961906</instance_id>
+        <instance_name>dev164351</instance_name>
+        <name>oauth_entity_d2155f6f9728021053f8b5a6f053afe4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity"><oauth_entity action="INSERT_OR_UPDATE"><access>public</access><access_token_lifespan>1800</access_token_lifespan><active>true</active><auth_code_lifespan>0</auth_code_lifespan><auth_url>https://d5h0000091msqeay-dev-ed.develop.lightning.force.com/services/oauth2/authorize</auth_url><certificate_url/><client_id>[11:26 AM] Kiran Mhase 3MVG95mg0lk4batg9o14afkBIuNraVWvq0PM355QRzrdx.Qyac.nF8PR4cmrO5vmc3OorTwapAo2A</client_id><client_secret>﷞﷟﷒8d91de4d9725311053f8b5a6f053af9c﷬﷔1﷬﷭-QVKnsOxOiEPf3h2BSkM7A==02sqzcPWNNiPB1R-rzG0c9u02IliXmujnKBktF0Y2l8UOYAKfXrEPqf9ZS1H-Y2LzgsnIZwZNdFcP8Gy5_-uNc3MeXTHdIBxFgtaOG1JqnhMbvjE5bBP-jjNtiq1O3en2hAynaF00w==﷮﷯</client_secret><client_uuid>52155f6f9728021053f8b5a6f053afe4</client_uuid><code_challenge_method>S256</code_challenge_method><comments/><default_grant_type>authorization_code</default_grant_type><id_token_lifespan>0</id_token_lifespan><logo_url/><message_signature_lifespan>0</message_signature_lifespan><name>Salesforce Integration</name><oauth_api_script/><protocol_name/><public_client>false</public_client><redirect_url>https://dev164351.service-now.com/oauth_redirect.do</redirect_url><refresh_token_lifespan>8640000</refresh_token_lifespan><refresh_token_url/><restricted_binding>false</restricted_binding><revoke_token_url>https://d5h0000091msqeay-dev-ed.develop.lightning.force.com/services/oauth2/revoke</revoke_token_url><salt>0</salt><send_client_credentials_as>request_body_parameter</send_client_credentials_as><skip_authorize>false</skip_authorize><sys_class_name>oauth_entity</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-01 13:30:49</sys_created_on><sys_id>d2155f6f9728021053f8b5a6f053afe4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Salesforce Integration</sys_name><sys_package display_value="TO-DO Application" source="x_1129749_to_do_0">59e1a10597a0021053f8b5a6f053af30</sys_package><sys_policy/><sys_scope display_value="TO-DO Application">59e1a10597a0021053f8b5a6f053af30</sys_scope><sys_update_name>oauth_entity_d2155f6f9728021053f8b5a6f053afe4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-01 13:30:49</sys_updated_on><token_url>https://d5h0000091msqeay-dev-ed.develop.lightning.force.com/services/oauth2/token</token_url><type>oauth_provider</type><use_mutual_auth>false</use_mutual_auth><user/></oauth_entity></record_update>]]></payload>
+        <payload_hash>-950896429</payload_hash>
+        <record_name>Salesforce Integration</record_name>
+        <reverted_from/>
+        <source>19e1a10597a0021053f8b5a6f053af32</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-01 13:30:49</sys_created_on>
+        <sys_id>4b851fef9728021053f8b5a6f053af92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dfa35d76c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-01 13:30:49</sys_updated_on>
+        <type>Application Registries</type>
+        <update_guid>83851fef7a280210021864c6a5d5d492</update_guid>
+        <update_guid_history>83851fef7a280210021864c6a5d5d492:-950896429</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Salesforce Integration">04a51fef9728021053f8b5a6f053af8c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-01 13:31:09</sys_created_on>
+        <sys_db_object display_value="" name="oauth_entity">oauth_entity</sys_db_object>
+        <sys_id>ace90bca5447445c9d21449e2c5e7271</sys_id>
+        <sys_metadata>d2155f6f9728021053f8b5a6f053afe4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Salesforce Integration</sys_name>
+        <sys_package display_value="TO-DO Application" source="x_1129749_to_do_0">59e1a10597a0021053f8b5a6f053af30</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="TO-DO Application">59e1a10597a0021053f8b5a6f053af30</sys_scope>
+        <sys_scope_delete display_value="">c36c2f0b6cd84e2e99254438d4e7f4f9</sys_scope_delete>
+        <sys_update_name>oauth_entity_d2155f6f9728021053f8b5a6f053afe4</sys_update_name>
+        <sys_update_version display_value="oauth_entity_d2155f6f9728021053f8b5a6f053afe4">4b851fef9728021053f8b5a6f053af92</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-01 13:31:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

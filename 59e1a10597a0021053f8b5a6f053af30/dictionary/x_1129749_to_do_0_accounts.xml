@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="09451c40973c421053f8b5a6f053af72" label="Accounts" max_length="40" name="x_1129749_to_do_0_accounts" type="collection">
+        <element label="Name" max_length="40" name="name" type="string"/>
+    </element>
+</database>

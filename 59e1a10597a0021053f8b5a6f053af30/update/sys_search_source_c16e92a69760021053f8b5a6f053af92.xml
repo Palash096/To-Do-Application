@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_source">
+    <sys_search_source action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1129749_to_do_0_to_do_project">active=true</condition>
+        <group/>
+        <name>To Do Workspace - x_1129749_to_do_0_to_do_project</name>
+        <roles/>
+        <source_table>x_1129749_to_do_0_to_do_project</source_table>
+        <sys_class_name>sys_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 06:55:54</sys_created_on>
+        <sys_id>c16e92a69760021053f8b5a6f053af92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>To Do Workspace - x_1129749_to_do_0_to_do_project</sys_name>
+        <sys_package display_value="TO-DO Application" source="x_1129749_to_do_0">59e1a10597a0021053f8b5a6f053af30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TO-DO Application">59e1a10597a0021053f8b5a6f053af30</sys_scope>
+        <sys_update_name>sys_search_source_c16e92a69760021053f8b5a6f053af92</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 06:55:54</sys_updated_on>
+    </sys_search_source>
+    <sys_translated_text action="delete_multiple" query="documentkey=c16e92a69760021053f8b5a6f053af92"/>
+</record_update>

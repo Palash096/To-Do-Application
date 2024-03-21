@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1129749_to_do_0_accounts</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Create Account on Salesforce</name>
+        <order>180</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+		gs.addInfoMessage("Inside Catch Block");
+
+    // Add your code here
+    try {
+        var r = new sn_ws.RESTMessageV2('x_1129749_to_do_0.Rest Messages', 'Create Record');
+        r.setStringParameterNoEscape('Name', current.name);
+		
+        //override authentication profile 
+        //authentication type ='basic'/ 'oauth2'
+        //r.setAuthenticationProfile(authentication type, profile name);
+
+        //set a MID server name if one wants to run the message on MID
+        //r.setMIDServer('MY_MID_SERVER');
+
+        //if the message is configured to communicate through ECC queue, either
+        //by setting a MID server or calling executeAsync, one needs to set skip_sensor
+        //to true. Otherwise, one may get an intermittent error that the response body is null
+        //r.setEccParameter('skip_sensor', true);
+
+        var response = r.execute();
+        var responseBody = response.getBody();
+        var httpStatus = response.getStatusCode();
+		gs.addInfoMessage("Inside Try Block");
+		gs.log("Log msg");
+		gs.info("Info msg");
+    } catch (ex) {
+        var message = ex.message;
+		gs.addInfoMessage("Inside Catch Block");
+    }
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-02 12:37:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dae2500097f8421053f8b5a6f053af33</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Create Account on Salesforce</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TO-DO Application" source="x_1129749_to_do_0">59e1a10597a0021053f8b5a6f053af30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TO-DO Application">59e1a10597a0021053f8b5a6f053af30</sys_scope>
+        <sys_update_name>sys_script_dae2500097f8421053f8b5a6f053af33</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-04 06:01:01</sys_updated_on>
+        <template/>
+        <when>async_always</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=dae2500097f8421053f8b5a6f053af33"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TO-DO Application">59e1a10597a0021053f8b5a6f053af30</application>
+        <file_path/>
+        <instance_id>ad7ecc92dbe92518c9912f17d4961906</instance_id>
+        <instance_name>dev164351</instance_name>
+        <name>sys_script_dae2500097f8421053f8b5a6f053af33</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_1129749_to_do_0_accounts&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Create Account on Salesforce&lt;/name&gt;&lt;order&gt;180&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+		gs.addInfoMessage("Inside Catch Block");
+
+    // Add your code here
+    try {
+        var r = new sn_ws.RESTMessageV2('x_1129749_to_do_0.Rest Messages', 'Create Record');
+        r.setStringParameterNoEscape('Name', current.name);
+		
+        //override authentication profile 
+        //authentication type ='basic'/ 'oauth2'
+        //r.setAuthenticationProfile(authentication type, profile name);
+
+        //set a MID server name if one wants to run the message on MID
+        //r.setMIDServer('MY_MID_SERVER');
+
+        //if the message is configured to communicate through ECC queue, either
+        //by setting a MID server or calling executeAsync, one needs to set skip_sensor
+        //to true. Otherwise, one may get an intermittent error that the response body is null
+        //r.setEccParameter('skip_sensor', true);
+
+        var response = r.execute();
+        var responseBody = response.getBody();
+        var httpStatus = response.getStatusCode();
+		gs.addInfoMessage("Inside Try Block");
+		gs.log("Log msg");
+		gs.info("Info msg");
+    } catch (ex) {
+        var message = ex.message;
+		gs.addInfoMessage("Inside Catch Block");
+    }
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-02 12:37:56&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;dae2500097f8421053f8b5a6f053af33&lt;/sys_id&gt;&lt;sys_mod_count&gt;16&lt;/sys_mod_count&gt;&lt;sys_name&gt;Create Account on Salesforce&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="TO-DO Application" source="x_1129749_to_do_0"&gt;59e1a10597a0021053f8b5a6f053af30&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="TO-DO Application"&gt;59e1a10597a0021053f8b5a6f053af30&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_dae2500097f8421053f8b5a6f053af33&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-03-04 06:01:01&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;async_always&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=dae2500097f8421053f8b5a6f053af33"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>332979185</payload_hash>
+        <record_name>Create Account on Salesforce</record_name>
+        <reverted_from/>
+        <source>19e1a10597a0021053f8b5a6f053af32</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-04 06:01:02</sys_created_on>
+        <sys_id>7f5b85209770021053f8b5a6f053af94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e080d22400000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-04 06:01:02</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>375b852067700210ee65006111c3f694</update_guid>
+        <update_guid_history>375b852067700210ee65006111c3f694:332979185,541b0920cd700210d80e00fe2707f403:1343917299,1bda81205b700210b0f0fb65f6e26640:1062466955,d1ba8120fe7002106a8c56d89b28753b:1589130697,0618096c0e300210cd865dec687b21c9:-1106181982,0357492c02300210b508faeee314a92e:-1860961768,41c6cde83f3002109cca6a0d8282ffe1:-1156306886,b8b6cde876300210fa293e653bcbf5ba:1462057524,5983c1283f3002103bf7d3e4203ba72c:1148098036,f623c1282a3002108ec55dfb83d07925:877916004,aee2c5e49b3002103f74c2df9f4e9975:-105081672,5b8249e4823002103bac48a1dd3f5d5b:1411342079,3061c5a43130021056af601b00852f6f:-1459027733,ca0c1c04c83c42106bb22038ab76d81a:1090931750,30b85480033c421003ca05a563765a1a:-1951379317,ebf49ccc1cf84210d15af7f66bc697e2:-987280575,9e03d0ccbdf842100530f45881a4b1eb:-2042793149</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-04 06:06:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>18deb93ce6384b8e85000e76eac88a51</sys_id>
+        <sys_metadata>dae2500097f8421053f8b5a6f053af33</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create Account on Salesforce</sys_name>
+        <sys_package display_value="TO-DO Application" source="x_1129749_to_do_0">59e1a10597a0021053f8b5a6f053af30</sys_package>
+        <sys_parent display_value="Accounts">09451c40973c421053f8b5a6f053af72</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="TO-DO Application">59e1a10597a0021053f8b5a6f053af30</sys_scope>
+        <sys_scope_delete display_value="">c36c2f0b6cd84e2e99254438d4e7f4f9</sys_scope_delete>
+        <sys_update_name>sys_script_dae2500097f8421053f8b5a6f053af33</sys_update_name>
+        <sys_update_version display_value="sys_script_dae2500097f8421053f8b5a6f053af33">7f5b85209770021053f8b5a6f053af94</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-04 06:06:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

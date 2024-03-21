@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile_scope">
+    <oauth_entity_profile_scope action="INSERT_OR_UPDATE">
+        <oauth_entity_profile display_value="Salesforce Integration default_profile">1b2657239768021053f8b5a6f053af8f</oauth_entity_profile>
+        <oauth_entity_scope display_value="full">88361fef9728021053f8b5a6f053af37</oauth_entity_scope>
+        <sys_class_name>oauth_entity_profile_scope</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-01 13:34:19</sys_created_on>
+        <sys_id>e45657ef9728021053f8b5a6f053af41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1b2657239768021053f8b5a6f053af8f</sys_name>
+        <sys_package display_value="TO-DO Application" source="x_1129749_to_do_0">59e1a10597a0021053f8b5a6f053af30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TO-DO Application">59e1a10597a0021053f8b5a6f053af30</sys_scope>
+        <sys_update_name>oauth_entity_profile_scope_e45657ef9728021053f8b5a6f053af41</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-01 13:34:19</sys_updated_on>
+    </oauth_entity_profile_scope>
+</record_update>

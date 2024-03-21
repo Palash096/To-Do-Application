@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile_scope">
+    <oauth_entity_profile_scope action="DELETE">
+        <oauth_entity_profile display_value="Salesforce Integration default_profile">23f56ddb972c821053f8b5a6f053af3d</oauth_entity_profile>
+        <oauth_entity_scope display_value="full">3d37e91f972c821053f8b5a6f053afd1</oauth_entity_scope>
+        <sys_class_name>oauth_entity_profile_scope</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-29 10:57:35</sys_created_on>
+        <sys_id>f9d8e55f972c821053f8b5a6f053aff7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>23f56ddb972c821053f8b5a6f053af3d</sys_name>
+        <sys_package display_value="TO-DO Application" source="x_1129749_to_do_0">59e1a10597a0021053f8b5a6f053af30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TO-DO Application">59e1a10597a0021053f8b5a6f053af30</sys_scope>
+        <sys_update_name>oauth_entity_profile_scope_f9d8e55f972c821053f8b5a6f053aff7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-29 10:57:35</sys_updated_on>
+    </oauth_entity_profile_scope>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TO-DO Application">59e1a10597a0021053f8b5a6f053af30</application>
+        <file_path/>
+        <instance_id>ad7ecc92dbe92518c9912f17d4961906</instance_id>
+        <instance_name>dev164351</instance_name>
+        <name>oauth_entity_profile_scope_f9d8e55f972c821053f8b5a6f053aff7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile_scope"><oauth_entity_profile_scope action="INSERT_OR_UPDATE"><oauth_entity_profile display_value="Salesforce Integration default_profile">23f56ddb972c821053f8b5a6f053af3d</oauth_entity_profile><oauth_entity_scope display_value="full">3d37e91f972c821053f8b5a6f053afd1</oauth_entity_scope><sys_class_name>oauth_entity_profile_scope</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-29 10:57:35</sys_created_on><sys_id>f9d8e55f972c821053f8b5a6f053aff7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>23f56ddb972c821053f8b5a6f053af3d</sys_name><sys_package display_value="TO-DO Application" source="x_1129749_to_do_0">59e1a10597a0021053f8b5a6f053af30</sys_package><sys_policy/><sys_scope display_value="TO-DO Application">59e1a10597a0021053f8b5a6f053af30</sys_scope><sys_update_name>oauth_entity_profile_scope_f9d8e55f972c821053f8b5a6f053aff7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-29 10:57:35</sys_updated_on></oauth_entity_profile_scope></record_update>]]></payload>
+        <payload_hash>1209424374</payload_hash>
+        <record_name>23f56ddb972c821053f8b5a6f053af3d</record_name>
+        <reverted_from/>
+        <source>19e1a10597a0021053f8b5a6f053af32</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-29 10:57:35</sys_created_on>
+        <sys_id>70e86ddb972c821053f8b5a6f053affd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18df48332bd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-29 10:57:35</sys_updated_on>
+        <type>OAuth Entity Profile Scope</type>
+        <update_guid>b8e86ddb9e2c8210b7d598deffe482fc</update_guid>
+        <update_guid_history>b8e86ddb9e2c8210b7d598deffe482fc:1209424374</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Salesforce Integration default_profile">3e05dbef9728021053f8b5a6f053af63</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-01 13:28:36</sys_created_on>
+        <sys_db_object display_value="" name="oauth_entity_profile_scope">oauth_entity_profile_scope</sys_db_object>
+        <sys_id>58b8c2349d5f40e6ba177aeaa1c46eb9</sys_id>
+        <sys_metadata>f9d8e55f972c821053f8b5a6f053aff7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>23f56ddb972c821053f8b5a6f053af3d</sys_name>
+        <sys_package display_value="TO-DO Application" source="x_1129749_to_do_0">59e1a10597a0021053f8b5a6f053af30</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="TO-DO Application">59e1a10597a0021053f8b5a6f053af30</sys_scope>
+        <sys_scope_delete display_value="">c36c2f0b6cd84e2e99254438d4e7f4f9</sys_scope_delete>
+        <sys_update_name>oauth_entity_profile_scope_f9d8e55f972c821053f8b5a6f053aff7</sys_update_name>
+        <sys_update_version display_value="oauth_entity_profile_scope_f9d8e55f972c821053f8b5a6f053aff7">70e86ddb972c821053f8b5a6f053affd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-01 13:28:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

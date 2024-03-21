@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile">
+    <oauth_entity_profile action="DELETE">
+        <default>true</default>
+        <grant_type>authorization_code</grant_type>
+        <jwt_provider/>
+        <name>Salesforce Integration default_profile</name>
+        <oauth_entity display_value="Salesforce Integration">a1eb1553972c821053f8b5a6f053af68</oauth_entity>
+        <saml2_assertion_producer/>
+        <sys_class_name>oauth_entity_profile</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-29 10:44:56</sys_created_on>
+        <sys_id>23f56ddb972c821053f8b5a6f053af3d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Salesforce Integration default_profile</sys_name>
+        <sys_package display_value="TO-DO Application" source="x_1129749_to_do_0">59e1a10597a0021053f8b5a6f053af30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TO-DO Application">59e1a10597a0021053f8b5a6f053af30</sys_scope>
+        <sys_update_name>oauth_entity_profile_23f56ddb972c821053f8b5a6f053af3d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-29 13:21:45</sys_updated_on>
+    </oauth_entity_profile>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TO-DO Application">59e1a10597a0021053f8b5a6f053af30</application>
+        <file_path/>
+        <instance_id>ad7ecc92dbe92518c9912f17d4961906</instance_id>
+        <instance_name>dev164351</instance_name>
+        <name>oauth_entity_profile_23f56ddb972c821053f8b5a6f053af3d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile"><oauth_entity_profile action="INSERT_OR_UPDATE"><default>true</default><grant_type>authorization_code</grant_type><jwt_provider/><name>Salesforce Integration default_profile</name><oauth_entity display_value="Salesforce Integration">a1eb1553972c821053f8b5a6f053af68</oauth_entity><saml2_assertion_producer/><sys_class_name>oauth_entity_profile</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-29 10:44:56</sys_created_on><sys_id>23f56ddb972c821053f8b5a6f053af3d</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Salesforce Integration default_profile</sys_name><sys_package display_value="TO-DO Application" source="x_1129749_to_do_0">59e1a10597a0021053f8b5a6f053af30</sys_package><sys_policy/><sys_scope display_value="TO-DO Application">59e1a10597a0021053f8b5a6f053af30</sys_scope><sys_update_name>oauth_entity_profile_23f56ddb972c821053f8b5a6f053af3d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-29 13:21:45</sys_updated_on></oauth_entity_profile></record_update>]]></payload>
+        <payload_hash>1601715482</payload_hash>
+        <record_name>Salesforce Integration default_profile</record_name>
+        <reverted_from/>
+        <source>19e1a10597a0021053f8b5a6f053af32</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-29 13:21:45</sys_created_on>
+        <sys_id>74e90a5f97ac821053f8b5a6f053af38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18df507320b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-29 13:21:45</sys_updated_on>
+        <type>OAuth Entity Profile</type>
+        <update_guid>bce90a5f05ac8210ac8db4c349246e37</update_guid>
+        <update_guid_history>bce90a5f05ac8210ac8db4c349246e37:1601715482,9ca686db0fac82107a15ec033426255e:-2023808155,6d0635d3816c8210e4140b3298a17043:-564043214,27f56ddb552c8210d216fa4c6f1bad3f:1601715482</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Salesforce Integration default_profile">7e05dbef9728021053f8b5a6f053af6d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-01 13:28:36</sys_created_on>
+        <sys_db_object display_value="" name="oauth_entity_profile">oauth_entity_profile</sys_db_object>
+        <sys_id>3a0543bdbaf341f2ad22403b85982c49</sys_id>
+        <sys_metadata>23f56ddb972c821053f8b5a6f053af3d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Salesforce Integration default_profile</sys_name>
+        <sys_package display_value="TO-DO Application" source="x_1129749_to_do_0">59e1a10597a0021053f8b5a6f053af30</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="TO-DO Application">59e1a10597a0021053f8b5a6f053af30</sys_scope>
+        <sys_scope_delete display_value="">c36c2f0b6cd84e2e99254438d4e7f4f9</sys_scope_delete>
+        <sys_update_name>oauth_entity_profile_23f56ddb972c821053f8b5a6f053af3d</sys_update_name>
+        <sys_update_version display_value="oauth_entity_profile_23f56ddb972c821053f8b5a6f053af3d">74e90a5f97ac821053f8b5a6f053af38</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-01 13:28:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

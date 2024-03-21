@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1129749_to_do_0_product</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Create Product in Salesforce</name>
+        <order>61</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    gs.addInfoMessage("Hello.");
+
+    //     if (current.active == true) {
+    //         gs.addInfoMessage("If active is true.");
+
+    //         try {
+    //             var r = new sn_ws.RESTMessageV2('x_1129749_to_do_0.Rest Messages 2', 'Dynamic Record Creation');
+    //             r.setStringParameterNoEscape('Name', current.product_name);
+    //             r.setStringParameterNoEscape('Description', current.product_description);
+    //             r.setStringParameterNoEscape('ProductCode', current.product_code);
+    //             r.setStringParameterNoEscape('IsActive', current.active);
+    //             gs.addInfoMessage("Hii");
+    //             //override authentication profile 
+    //             //authentication type ='basic'/ 'oauth2'
+    //             //r.setAuthenticationProfile(authentication type, profile name);
+
+    //             //set a MID server name if one wants to run the message on MID
+    //             //r.setMIDServer('MY_MID_SERVER');
+
+    //             //if the message is configured to communicate through ECC queue, either
+    //             //by setting a MID server or calling executeAsync, one needs to set skip_sensor
+    //             //to true. Otherwise, one may get an intermittent error that the response body is null
+    //             //r.setEccParameter('skip_sensor', true);
+
+    //             var response = r.execute();
+    //             var responseBody = response.getBody();
+    //             var httpStatus = response.getStatusCode();
+    //             gs.addInfoMessage("Response : " + response);
+    //             gs.addInfoMessage("Response Body : " + responseBody);
+    //             gs.addInfoMessage("HttpStatus : " + httpStatus);
+    //             gs.info("Response : " + response);
+    //             gs.info("Response Body : " + responseBody);
+    //             gs.info("HttpStatus : " + httpStatus);
+    //             var object = JSON.parse(responseBody);
+    //             current.product_id = object.id;
+    //             gs.info("Object Id : " + object.id);
+    //             gs.info("Product Id : " + object.id);
+    //             current.update();
+    //         } catch (ex) {
+    //             var message = ex.message;
+    //         }
+    //     } else if (current.active == false) {
+    //         gs.addInfoMessage("If active is false.");
+    //         current.setAbortAction(true);
+    //     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//       gs.info("Response : " + current.active);
+
+//     if (current.active == true) {
+//         gs.addInfoMessage("If active is true.");
+
+
+        try {
+            var r = new sn_ws.RESTMessageV2('x_1129749_to_do_0.Rest Messages 2', 'Dynamic Record Creation');
+            r.setStringParameterNoEscape('Name', current.product_name);
+            r.setStringParameterNoEscape('IsActive', current.active);
+            r.setStringParameterNoEscape('Description', current.product_description);
+            r.setStringParameterNoEscape('ProductCode', current.product_code);
+
+            //override authentication profile 
+            //authentication type ='basic'/ 'oauth2'
+            //r.setAuthenticationProfile(authentication type, profile name);
+
+            //set a MID server name if one wants to run the message on MID
+            //r.setMIDServer('MY_MID_SERVER');
+
+            //if the message is configured to communicate through ECC queue, either
+            //by setting a MID server or calling executeAsync, one needs to set skip_sensor
+            //to true. Otherwise, one may get an intermittent error that the response body is null
+            //r.setEccParameter('skip_sensor', true);
+
+            var response = r.execute();
+            var responseBody = response.getBody();
+            var httpStatus = response.getStatusCode();
+            gs.addInfoMessage("Response : " + response);
+            gs.addInfoMessage("Response Body : " + responseBody);
+            gs.addInfoMessage("HttpStatus : " + httpStatus);
+            gs.info("Response : " + response);
+            gs.info("Response Body : " + responseBody);
+            gs.info("HttpStatus : " + httpStatus);
+            var object = JSON.parse(responseBody);
+            current.product_id = object.id;
+            gs.info("Object Id : " + object.id);
+            gs.info("Product Id : " + object.id);
+            current.update();
+        } catch (ex) {
+            var message = ex.message;
+			gs.addInfoMessage(message);
+        }
+//     } else  {
+		
+//         gs.info("If active is false.");
+//         current.deleteRecord();
+//     }
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-04 07:39:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>20f069a497b0021053f8b5a6f053afcc</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name>Create Product in Salesforce</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TO-DO Application" source="x_1129749_to_do_0">59e1a10597a0021053f8b5a6f053af30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TO-DO Application">59e1a10597a0021053f8b5a6f053af30</sys_scope>
+        <sys_update_name>sys_script_20f069a497b0021053f8b5a6f053afcc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-07 07:08:10</sys_updated_on>
+        <template/>
+        <when>async_always</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=20f069a497b0021053f8b5a6f053afcc"/>
+</record_update>

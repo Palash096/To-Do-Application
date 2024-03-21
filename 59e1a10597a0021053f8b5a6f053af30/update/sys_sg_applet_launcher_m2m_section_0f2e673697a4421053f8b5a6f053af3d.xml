@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_m2m_section">
+    <sys_sg_applet_launcher_m2m_section action="INSERT_OR_UPDATE">
+        <applet_launcher display_value="To Do">7a2ee33697a4421053f8b5a6f053af96</applet_launcher>
+        <order>0</order>
+        <section display_value="To Do">432e673697a4421053f8b5a6f053af3c</section>
+        <sys_class_name>sys_sg_applet_launcher_m2m_section</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-28 07:22:58</sys_created_on>
+        <sys_id>0f2e673697a4421053f8b5a6f053af3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="TO-DO Application" source="x_1129749_to_do_0">59e1a10597a0021053f8b5a6f053af30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TO-DO Application">59e1a10597a0021053f8b5a6f053af30</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_m2m_section_0f2e673697a4421053f8b5a6f053af3d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-28 07:22:58</sys_updated_on>
+    </sys_sg_applet_launcher_m2m_section>
+</record_update>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_scope">
+    <oauth_entity_scope action="DELETE">
+        <in_default_profile>false</in_default_profile>
+        <name>full</name>
+        <oauth_entity display_value="Salesforce Integration 2">19a4292397a0021053f8b5a6f053af35</oauth_entity>
+        <oauth_entity_scope>full</oauth_entity_scope>
+        <sys_class_name>oauth_entity_scope</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-01 05:28:58</sys_created_on>
+        <sys_id>ca17616397a0021053f8b5a6f053af91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>full</sys_name>
+        <sys_package display_value="TO-DO Application" source="x_1129749_to_do_0">59e1a10597a0021053f8b5a6f053af30</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TO-DO Application">59e1a10597a0021053f8b5a6f053af30</sys_scope>
+        <sys_update_name>oauth_entity_scope_ca17616397a0021053f8b5a6f053af91</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-01 05:28:58</sys_updated_on>
+    </oauth_entity_scope>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TO-DO Application">59e1a10597a0021053f8b5a6f053af30</application>
+        <file_path/>
+        <instance_id>ad7ecc92dbe92518c9912f17d4961906</instance_id>
+        <instance_name>dev164351</instance_name>
+        <name>oauth_entity_scope_ca17616397a0021053f8b5a6f053af91</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_scope"><oauth_entity_scope action="INSERT_OR_UPDATE"><in_default_profile>false</in_default_profile><name>full</name><oauth_entity display_value="Salesforce Integration 2">19a4292397a0021053f8b5a6f053af35</oauth_entity><oauth_entity_scope>full</oauth_entity_scope><sys_class_name>oauth_entity_scope</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-01 05:28:58</sys_created_on><sys_id>ca17616397a0021053f8b5a6f053af91</sys_id><sys_mod_count>0</sys_mod_count><sys_name>full</sys_name><sys_package display_value="TO-DO Application" source="x_1129749_to_do_0">59e1a10597a0021053f8b5a6f053af30</sys_package><sys_policy/><sys_scope display_value="TO-DO Application">59e1a10597a0021053f8b5a6f053af30</sys_scope><sys_update_name>oauth_entity_scope_ca17616397a0021053f8b5a6f053af91</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-01 05:28:58</sys_updated_on></oauth_entity_scope></record_update>]]></payload>
+        <payload_hash>-188992215</payload_hash>
+        <record_name>full</record_name>
+        <reverted_from/>
+        <source>19e1a10597a0021053f8b5a6f053af32</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-01 05:28:58</sys_created_on>
+        <sys_id>3047a52397a0021053f8b5a6f053af92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18df87cb4f30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-01 05:28:58</sys_updated_on>
+        <type>OAuth Entity Scope</type>
+        <update_guid>7847a5236ca0021084d886a8346cab91</update_guid>
+        <update_guid_history>7847a5236ca0021084d886a8346cab91:-188992215</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="full">b0e41bef9728021053f8b5a6f053afd7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-01 13:27:56</sys_created_on>
+        <sys_db_object display_value="" name="oauth_entity_scope">oauth_entity_scope</sys_db_object>
+        <sys_id>87e8080c3f9a401ca4813eba9629f8e1</sys_id>
+        <sys_metadata>ca17616397a0021053f8b5a6f053af91</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>full</sys_name>
+        <sys_package display_value="TO-DO Application" source="x_1129749_to_do_0">59e1a10597a0021053f8b5a6f053af30</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="TO-DO Application">59e1a10597a0021053f8b5a6f053af30</sys_scope>
+        <sys_scope_delete display_value="">c36c2f0b6cd84e2e99254438d4e7f4f9</sys_scope_delete>
+        <sys_update_name>oauth_entity_scope_ca17616397a0021053f8b5a6f053af91</sys_update_name>
+        <sys_update_version display_value="oauth_entity_scope_ca17616397a0021053f8b5a6f053af91">3047a52397a0021053f8b5a6f053af92</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-01 13:27:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
